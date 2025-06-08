@@ -1,4 +1,4 @@
-# Fitness Class Booking API
+# Simple Booking API
 
 This is a Flask-based REST API that allows clients to:
 - View available fitness classes
