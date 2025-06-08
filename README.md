@@ -14,7 +14,7 @@ The app includes timezone support and unit tests with a separate test database.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/omnify-python-assignment.git
+git clone https://github.com/sandeepdot1/omnify-python-assignment.git
 cd omnify-python-assignment
 ```
 
