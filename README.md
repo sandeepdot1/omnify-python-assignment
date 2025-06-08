@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ### 3. Seed the database
 
 ```bash
-python seed.py
+python seed_data.py
 ```
 
 ### 4. Run the App
