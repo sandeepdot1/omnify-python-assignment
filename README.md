@@ -44,9 +44,11 @@ python app.py
 pytest test_app.py -v
 ```
 
-### API Endpoints
+---
 
-#### GET /classes
+## API Endpoints
+
+#### 1. GET /classes
 Returns a list of upcoming fitness classes.
 
 Optional Query Parameters:
@@ -59,7 +61,7 @@ curl
 curl -X GET "http://localhost:5000/classes?tz=Asia/Kolkata" -H "Content-Type: application/json"
 ```
 
-#### POST /book
+#### 2. POST /book
 Books a slot in a fitness class.
 
 ```bash
@@ -86,7 +88,7 @@ curl -X POST http://localhost:5000/book \
       }'
 ```
 
-#### GET /bookings
+#### 3. GET /bookings
 Retrieves all bookings for a given client email.
 
 Query Parameters:
